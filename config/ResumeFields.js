@@ -16,11 +16,11 @@ export default {
         ],
     },
     summary: {
-        name: 'Summary',
+        name: 'Resumé',
         fields: [
             {
                 name: 'summary',
-                label: 'Summary',
+                label: 'Resumé',
                 type: 'textarea',
                 placeholder: 'Brief summary of your skills and experience...',
                 span: true,
@@ -29,7 +29,7 @@ export default {
         ],
     },
     education: {
-        name: 'Education',
+        name: 'Formation',
         multiple: true,
         fields: [
             { name: 'degree', label: 'Study Program', placeholder: 'Bachelor of Computer Science' },
